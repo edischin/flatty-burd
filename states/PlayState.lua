@@ -27,6 +27,9 @@ function PlayState:update(dt)
         self.paused = not self.paused
         if self.paused then
             gSounds['pause']:play()
+            gSounds['bg']:pause()
+        else
+            gSounds['bg']:play()
         end
     end
 

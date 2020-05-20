@@ -1,8 +1,10 @@
--- Based on HarvardX CS50G Course (https://online-learning.harvard.edu/course/cs50s-introduction-game-development?delta=0)
+-- Based on HarvardX CS50G Course (https://online-learning.harvard.edu/course/cs50s-introduction-game-development)
 -- Course reference repo (https://github.com/games50/fifty-bird)
--- Music by https://freesound.org/people/yummie/sounds/410574/
--- SFX generated created using Bfxr (https://www.bfxr.net/)
--- Some imaging assets obtained from Kenney.nl (https://kenney.nl/)
+-- Music by yummie on freesound (https://freesound.org/people/yummie/sounds/410574/)
+-- SFX created using Bfxr (https://www.bfxr.net/)
+-- Imaging assets from Kenney.nl (https://kenney.nl/) and course reference repo (above)
+-- Class library from Matthias Richter (https://github.com/vrld/hump)
+-- Push library from  Ulydev (https://github.com/Ulydev/push)
 
 push = require 'push'
 Class = require 'class'

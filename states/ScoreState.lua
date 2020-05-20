@@ -19,8 +19,8 @@ function ScoreState:enter(params)
     end
 
     if self.score > gTopScore then
+        self.isTopScore = (gTopScore ~= 0)
         gTopScore = self.score
-        self.isTopScore = true
     end
 
     if self.isTopScore then
