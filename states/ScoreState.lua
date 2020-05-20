@@ -60,5 +60,5 @@ function ScoreState:render()
     end
 
     love.graphics.setFont(gFonts['medium'])
-    love.graphics.printf('Press Enter to Play Again!', 0, 240, VIRTUAL_WIDTH, 'center')
+    love.graphics.printf('Press \'Enter\' to Play Again!', 0, 240, VIRTUAL_WIDTH, 'center')
 end
